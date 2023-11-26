@@ -1,0 +1,18 @@
+git status – to check the status of the git repository
+vim “filename.txt” then press i – to edit the file
+esq : w q – to exit vim file.txt
+git add – to add a file to the git repository for tracking
+git add . – if adding more than one file
+git commit -m “first commit – adding “filename”” – to commit the file that was added
+git config – global user.email “your email”
+git config – global user.name “your name”
+git config --list – print current git configuration
+git reset – rolls back files from stagging area to working directory
+git checkout/restore – restores the state of the file to the form saved by git
+git rm – removes specified file/directory
+git log – allows you to list the commits in order from newest to oldest
+git log --patch – displays the changes made in each commit
+git log --stat – displays the statistics e.g., the number of lines changed
+git log --oneline – displays each commit on one separate line 
+git log --author=”authorname” – displays the changes made by the author only.
+
